@@ -1,8 +1,8 @@
-# HR Employee Analytics Dashboard
+# HR Attrition Analysis
 
 ## Project Overview
 
-The **HR Employee Analytics Dashboard** is an Excel-based HR analytics
+The **HR Attrition Analysis** is an Excel-based HR analytics
 project designed to summarize employee headcount, attrition, workforce
 demographics, and department-level distribution. It converts
 employee-level data into KPI cards, charts, and interactive slicers so
