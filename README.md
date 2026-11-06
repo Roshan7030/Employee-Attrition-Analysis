@@ -30,18 +30,12 @@ helps answer questions such as:
 
 ## Dashboard Preview
 
-Add your dashboard screenshot to the repository (for example, in a
-folder named `images`) and update the path below if your filename is
-different.
-
-![HR Employee Analytics Dashboard](images/hr_employee_dashboard.png)
+![HR Attrition Analysis Dashboard](images/Dashboard.png)
 
 ## Key Performance Indicators (KPIs)
 
-The dashboard displays the following headline metrics from the workbook:
-
   ------------------------------------------------------------------------
-  KPI                                          Value Meaning
+  KPI                                          
   --------------------- ---------------------------- ---------------------
   Total Employees                              1,470 Total employee
                                                      records in the
@@ -69,35 +63,30 @@ The dashboard displays the following headline metrics from the workbook:
 -   **Attrition Rate** = (Attrition Count ÷ Total Employees) × 100
 -   **Average Age** = Average of the `Age` field
 
-## Dashboard Visualizations and Filters
+## Dashboard Visualizations and Filters       
+ * Education-wise employee distribution :-              Employee count across Bachelor's,
+                                                      Master's, Associate's, High School,
+                                                      and Doctoral education categories
 
-The dashboard includes the following visual elements:
+  * Department-wise employee distribution:-            Employee count in HR, R&D, and
+                                                    Sales
 
-  -----------------------------------------------------------------------
-  Visual / Filter                     What it shows
-  ----------------------------------- -----------------------------------
-  Education-wise employee             Employee count across Bachelor's,
-  distribution                        Master's, Associate's, High School,
-                                      and Doctoral education categories
-
-  Department-wise employee            Employee count in HR, R&D, and
-  distribution                        Sales
-
-  Marital-status distribution         Employee count for Divorced,
+  * Marital-status distribution :-          Employee count for Divorced,
                                       Married, and Single employees
 
-  Gender distribution                 Workforce split by Male and Female
+  * Gender distribution :-                  Workforce split by Male and Female
                                       employees
 
-  Age-group distribution              Employee count across the age bands
+  * Age-group distribution :-              Employee count across the age bands
                                       shown in the dashboard
 
-  Gender slicer                       Filters the dashboard by gender
+  * Gender slicer :-                      Filters the dashboard by gender
 
-  Marital Status slicer               Filters the dashboard by marital
-                                      status
+  * Marital Status slicer :-               Filters the dashboard by marital
+                                      status                                  
+   
+* Department slicer :-                 Filters the dashboard by department                                 
 
-  Department slicer                   Filters the dashboard by department
   -----------------------------------------------------------------------
 
 ## Dataset Information
@@ -115,12 +104,6 @@ the `Data` sheet. The fields cover areas such as:
 
 The workbook also contains supporting sheets for KPI calculations,
 employee details, and category-wise summaries used by the dashboard.
-
-> **Data-source note:** The uploaded workbook does not identify a
-> verified original publisher or source URL. Add the original dataset
-> citation here only if you can independently confirm it. Do not label
-> the data as real company or hospital employee records without
-> evidence.
 
 ## Tools and Techniques
 
@@ -153,46 +136,12 @@ sheet:
 -   Employees marked for overtime account for 127 attrition cases out of
     416 employees in that group.
 
-These findings describe patterns in this dataset; they do not establish
-the reasons why employees leave.
-
-## Important Dashboard Validation Note
-
-Some charts in the screenshot are titled **"Education wise Attrition,"
-"Department wise Attrition," "Merital Status wise Attrition,"** and
-**"Age Group wise Attrition."** However, the displayed category totals
-correspond to overall employee counts (for example, department counts of
-63, 961, and 446 add up to 1,470), not only the 237 employees who left.
-
-For an accurate attrition comparison, use `Attrition = Yes` as a filter
-or calculate attrition counts/rates for each category. Consider renaming
-the current visuals to **"Employee Distribution by ..."** if they are
-intended to show total headcount. Also verify the age-band labels
-against the source data before publishing.
-
-## Repository Structure
-
-A suggested GitHub repository layout:
-
-``` text
-HR-Employee-Analytics/
-│
-├── images/
-│   └── hr_employee_dashboard.png
-│
-├── HR DATA_Excel.xlsx
-│
-└── README.md
-```
-
-If you use different filenames, update the paths in this README
-accordingly.
 
 ## How to Use the Project
 
 1.  Download or clone this repository.
 2.  Open the Excel workbook in Microsoft Excel.
-3.  Go to the `dashboard` sheet to view the HR Employee Analytics
+3.  Go to the `dashboard` sheet to view the HR Attrition Analysis
     Dashboard.
 4.  Use the Gender, Marital Status, and Department slicers to filter the
     dashboard.
@@ -201,12 +150,8 @@ accordingly.
 
 ## Project Objective
 
-The objective of this project is to demonstrate practical HR data
+The objective of this project is to demonstrate practical HR Attrition
 analysis and Excel dashboarding skills by transforming employee-level
 data into meaningful workforce metrics and interactive visual summaries.
 
 ------------------------------------------------------------------------
-
-**Note:** This is an analytical portfolio project. The results are based
-on the supplied workbook and should not be treated as verified findings
-about a specific real-world organization.
